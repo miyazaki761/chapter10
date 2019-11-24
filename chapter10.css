@@ -24,6 +24,11 @@ main {
   border: 1px solid #eee;
 }
 
+
+.step-box:last-child{
+  margin-right: 0;
+}
+
 .step-img1 {
   height: 150px;
   background-image: url(chapter9_exercise/img/flow01.png);
@@ -68,6 +73,10 @@ main {
   float: none;
   width: 90%;
   margin: 20px auto;
+   }
+
+  .step-box:last-child {
+  margin-right: auto;
    }
 
  .step-img1 {
